@@ -23,6 +23,7 @@ module.exports = {
     "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/no-var-requires": "off",
     "testing-library/no-dom-import": "off",
     // 错误提示
     "jest/no-focused-tests": "error",

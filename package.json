@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "start": "webpack serve",
     "lint": "eslint --fix"
   },
   "author": "",
@@ -12,19 +13,39 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@types/jest": "^28.1.7",
+    "@types/node": "^18.7.11",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@types/webpack": "^5.28.0",
     "@typescript-eslint/eslint-plugin": "^5.33.1",
     "@typescript-eslint/parser": "^5.33.1",
+    "css-loader": "^6.7.1",
     "eslint": "^8.22.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-jest": "^26.8.7",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-testing-library": "^5.6.0",
+    "html-webpack-plugin": "^5.5.0",
     "jest": "^28.1.3",
     "jest-environment-jsdom": "^28.1.3",
     "jest-location-mock": "^1.0.9",
+    "less": "^4.1.3",
+    "less-loader": "^11.0.0",
     "prettier": "^2.7.1",
+    "style-loader": "^3.3.1",
     "ts-jest": "^28.0.8",
-    "typescript": "^4.7.4"
+    "ts-loader": "^9.3.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "antd": "^4.22.7",
+    "axios": "^0.27.2",
+    "classnames": "^2.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
