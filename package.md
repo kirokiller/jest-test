@@ -65,3 +65,21 @@ npm i -D @types/react @types/react-dom
 npm i ts-node -D
 ```
 
+react-jest
+
+```
+npm i -D @testing-library/react
+```
+
+避免对非js静态资源做转义
+
+```
+npm i -D jest-transform-stub
+```
+
+Mock Http
+
+```
+npm i -D msw
+```
+

@@ -1,11 +1,12 @@
+import AuthButton from "components/AuthButton";
 import React from "react";
-import { Button } from "antd";
 
 const App = () => {
   return (
     <div>
-      <h1>Hello</h1>
-      <Button>点我</Button>
+      <section>
+        <AuthButton>登录</AuthButton>
+      </section>
     </div>
   );
 };
