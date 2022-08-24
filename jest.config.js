@@ -68,7 +68,7 @@ module.exports = {
   // globals: {},
 
   // The maximum amount of workers used to run your tests. Can be specified as % or a number. E.g. maxWorkers: 10% will use 10% of your CPU amount + 1 as the maximum worker number. maxWorkers: 2 will use a maximum of 2 workers.
-  // maxWorkers: "50%",
+  maxWorkers: 1,
 
   // An array of directory names to be searched recursively up from the requiring module's location
   moduleDirectories: ["node_modules", "src"],
@@ -172,6 +172,9 @@ module.exports = {
 
   // A map from regular expressions to paths to transformers
   transform: {
+    // 使用 swc 转译 JavaScript 和 TypeScrit
+    // "^.+\\.(t|j)sx?$": ["@swc/jest"],
+    // 静态资源 stub 转译
     ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$":
       "jest-transform-stub",
   },
